@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UMKM Pisang Lumer - Melani Syah Putri</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- NAVBAR: Langsung berjajar ke samping tanpa garis tiga -->
+    <header class="navbar">
+        <div class="container nav-wrapper">
+            <a class="brand" href="#beranda">
+                <img src="assets/logo.png" alt="Logo Pisang Lumer" class="logo">
+                <span>Pisang Lumer</span>
+            </a>
+            <nav class="nav-menu">
+                <a href="#beranda" class="nav-item">Beranda</a>
+                <a href="#tentang" class="nav-item">Tentang</a>
+                <a href="#produk" class="nav-item">Produk</a>
+                <a href="#kontak" class="nav-item">Kontak</a>
+                <a href="#produk" class="btn-nav">Lihat Produk</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- HERO / BERANDA: Tema Dark Café Elegan -->
+    <section id="beranda" class="hero">
+        <div class="container hero-grid">
+            <div class="hero-text">
+                <span class="tag-pill">🍌 Camilan Favorit Simalungun</span>
+                <h1>Nikmatnya <span>Pisang Lumer</span> di Setiap Gigitan!</h1>
+                <p>Pisang renyah dengan isian cokelat lumer yang manis dan nikmat. Cocok untuk menemani waktu santaimu bersama orang terdekat.</p>
+                <div class="hero-actions">
+                    <a href="#produk" class="btn-primary">Lihat Menu</a>
+                    <a href="#tentang" class="btn-secondary">Tentang Kami</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="img-frame">
+                    <img src="assets/pisang panir.png" alt="Pisang Lumer Cokelat" class="hero-img">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- KEUNGGULAN -->
+    <section class="section-features">
+        <div class="container">
+            <div class="horizontal-scroll">
+                <div class="feature-box">
+                    <div class="icon-circle">🍌</div>
+                    <div>
+                        <h4>Bahan Berkualitas</h4>
+                        <p>Menggunakan pisang pilihan terbaik untuk rasa yang nikmat.</p>
+                    </div>
+                </div>
+                <div class="feature-box">
+                    <div class="icon-circle">🍫</div>
+                    <div>
+                        <h4>Cokelat Lumer</h4>
+                        <p>Perpaduan pisang renyah dan cokelat melimpah.</p>
+                    </div>
+                </div>
+                <div class="feature-box">
+                    <div class="icon-circle">💛</div>
+                    <div>
+                        <h4>Dibuat dengan Cinta</h4>
+                        <p>Camilan spesial hangat untuk menemani hari-harimu.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TENTANG KAMI -->
+    <section id="tentang" class="section-about">
+        <div class="container about-grid">
+            <div class="about-image-wrap">
+                <img src="assets/tentang.png" alt="Produk Pisang Lumer" class="about-img">
+            </div>
+            <div class="about-content">
+                <span class="sub-label">TENTANG UMKM KAMI</span>
+                <h2>Kenalan dengan Pisang Lumer</h2>
+                <p>Pisang Lumer merupakan usaha mikro, kecil, dan menengah (UMKM) yang menawarkan camilan pisang dengan rasa manis dan lezat.</p>
+                <p>Kami ingin menghadirkan camilan yang cocok dinikmati bersama keluarga maupun teman dengan tampilan menarik dan pilihan topping yang lezat.</p>
+                <a href="#kontak" class="btn-primary">Hubungi Kami</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- PRODUK: Tombol (- 1 +) & Langsung Masuk Aplikasi WhatsApp -->
+    <section id="produk" class="section-menu">
+        <div class="container">
+            <div class="section-header">
+                <span class="sub-label">DAFTAR MENU PILIHAN</span>
+                <h2>Menu Pisang Lumer</h2>
+                <p>Atur jumlah porsi dan pesan langsung lewat WhatsApp!</p>
+            </div>
+
+            <div class="menu-grid">
+                <!-- Menu 1 -->
+                <div class="menu-card" data-nama="Pisang Lumer Cokelat" data-harga="10000">
+                    <div class="menu-img-box">
+                        <span class="menu-badge badge-gold">Favorit</span>
+                        <img src="assets/cokelat.png" alt="Pisang Lumer Cokelat" class="menu-img">
+                    </div>
+                    <div class="menu-info">
+                        <span class="series-label">PISANG LUMER SERIES</span>
+                        <h3>Pisang Lumer Cokelat</h3>
+                        <p>Pisang renyah dengan isian cokelat lumer yang manis dan lezat.</p>
+                        <div class="price-qty-row">
+                            <span class="menu-price">Rp 10.000</span>
+                            <div class="qty-control">
+                                <button type="button" class="qty-btn minus-btn">-</button>
+                                <span class="qty-value">1</span>
+                                <button type="button" class="qty-btn plus-btn">+</button>
+                            </div>
+                        </div>
+                        <a href="https://whatsapp.com"
+                           class="btn-wa-order">
+                            💬 Order via WhatsApp
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Menu 2 -->
+                <div class="menu-card" data-nama="Pisang Lumer Keju" data-harga="12000">
+                    <div class="menu-img-box">
+                        <span class="menu-badge">Pilihan</span>
+                        <img src="assets/keju.png" alt="Pisang Lumer Keju" class="menu-img">
+                    </div>
+                    <div class="menu-info">
+                        <span class="series-label">PISANG LUMER SERIES</span>
+                        <h3>Pisang Lumer Keju</h3>
+                        <p>Pisang manis dengan balutan topping parutan keju melimpah.</p>
+                        <div class="price-qty-row">
+                            <span class="menu-price">Rp 12.000</span>
+                            <div class="qty-control">
+                                <button type="button" class="qty-btn minus-btn">-</button>
+                                <span class="qty-value">1</span>
+                                <button type="button" class="qty-btn plus-btn">+</button>
+                            </div>
+                        </div>
+                        <a href="https://whatsapp.com"
+                           class="btn-wa-order">
+                            💬 Order via WhatsApp
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Menu 3 -->
+                <div class="menu-card" data-nama="Pisang Lumer Tiramisu" data-harga="15000">
+                    <div class="menu-img-box">
+                        <span class="menu-badge badge-special">Spesial</span>
+                        <img src="assets/tiramisu.png" alt="Pisang Lumer Tiramisu" class="menu-img">
+                    </div>
+                    <div class="menu-info">
+                        <span class="series-label">PISANG LUMER SERIES</span>
+                        <h3>Pisang Lumer Tiramisu</h3>
+                        <p>Pisang krispi dengan perpaduan saus cokelat tiramisu premium.</p>
+                        <div class="price-qty-row">
+                            <span class="menu-price">Rp 15.000</span>
+                            <div class="qty-control">
+                                <button type="button" class="qty-btn minus-btn">-</button>
+                                <span class="qty-value">1</span>
+                                <button type="button" class="qty-btn plus-btn">+</button>
+                            </div>
+                        </div>
+                        <a href="https://whatsapp.com"
+                           class="btn-wa-order">
+                            💬 Order via WhatsApp
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- KONTAK -->
+    <section id="kontak" class="section-contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="sub-label">HUBUNGI KAMI</span>
+                <h2>Kontak Pemilik UMKM</h2>
+                <p>Ingin memesan atau bertanya? Langsung chat kami di WhatsApp.</p>
+            </div>
+
+            <div class="contact-box">
+                <div class="contact-profile">
+                    <img src="assets/logo umkm.png" alt="Logo UMKM Pisang Lumer" class="contact-logo">
+                    <div>
+                        <h3>Melani Syah Putri</h3>
+                        <span class="owner-role">Pemilik UMKM Pisang Lumer</span>
+                    </div>
+                </div>
+
+                <div class="contact-details">
+                    <div class="detail-row">
+                        <span class="detail-icon">📍</span>
+                        <div>
+                            <strong>Alamat</strong>
+                            <p>Lorong II Naga Soppa, Kecamatan Bandar, Kabupaten Simalungun</p>
+<script src="js/script.js"></script>
